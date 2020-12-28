@@ -49,13 +49,14 @@
             </div>
           </div>
           <div class="features__slider-inner">
-            <div class="features__slider slider">
+            <slider></slider>
+            <!-- <div class="features__slider slider">
               <div class="slider__item"><img class="slider__image" src="img/features/features-slide3.jpg" alt="Cлайд 3"></div>
               <div class="slider__item"><img class="slider__image" src="img/features/features-slide.jpg" alt="Cлайд 1"></div>
               <div class="slider__item"><img class="slider__image" src="img/features/features-slide2.jpg" alt="Cлайд 2"></div>
               <div class="slider__item"><img class="slider__image" src="img/features/features-slide4.jpg" alt="Cлайд 4"></div>
               <div class="slider__item"><img class="slider__image" src="img/features/features-slide5.jpg" alt="Cлайд 5"></div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -63,3 +64,12 @@
   </section>
   </div>
 </template>
+
+<script>
+import Slider from './Slider'
+export default {
+  components: {
+    slider: Slider
+  }
+}
+</script>
